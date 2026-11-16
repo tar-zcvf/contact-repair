@@ -1,0 +1,27 @@
+# Private Ownership & Environment Files (CRITICAL)
+secrets/
+**/secrets/
+*.jks
+*.jjks
+*.keystore
+keystore.properties
+local.properties
+env.sh
+.env
+*.env
+
+# Google Play Service Account Keys (Keep play/ listings, block JSON keys)
+play/*.json
+*service-account*.json
+
+# Build Artifacts & Cache
+build/
+**/build/
+.gradle/
+*.apk
+*.aab
+
+# IDE & OS Files
+.idea/
+*.iml
+.DS_Store
